@@ -12,7 +12,7 @@ https://vpm.logiccuteguy.com/index.json
 
 | Package | Repo | Versions |
 | --- | --- | --- |
-| `com.logiccuteguy.lcgudonsharp` (LCGUdonSharp) | [LogicCuteGuy/LCGUdonSharp](https://github.com/LogicCuteGuy/LCGUdonSharp) | 0.2.0 |
+| `com.logiccuteguy.lcgudonsharp` (LCGUdonSharp) | [LogicCuteGuy/LCGUdonSharp](https://github.com/LogicCuteGuy/LCGUdonSharp) | 0.2.0, 0.3.2 |
 | `com.logiccuteguy.helptools` (LogicCuteGuy Help Tools) | [LogicCuteGuy/UnityHelpTools](https://github.com/LogicCuteGuy/UnityHelpTools) | 1.0.0, 1.0.1 |
 
 ## Rebuild locally
