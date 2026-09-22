@@ -1,0 +1,19 @@
+{
+  "name": "LogicCuteGuy VPM Listing",
+  "id": "com.logiccuteguy.vpm",
+  "url": "https://vpm.logiccuteguy.com/index.json",
+  "author": {
+    "email": "",
+    "name": "LogicCuteGuy",
+    "url": "https://github.com/LogicCuteGuy"
+  },
+  "description": "LogicCuteGuy VPM packages for VRChat (VCC / ALCOM)",
+  "infoLink": {
+    "url": "https://github.com/LogicCuteGuy",
+    "text": "View on GitHub"
+  },
+  "githubRepos": [
+    "LogicCuteGuy/LCGUdonSharp",
+    "LogicCuteGuy/UnityHelpTools"
+  ]
+}
