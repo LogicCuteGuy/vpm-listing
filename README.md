@@ -13,8 +13,9 @@ https://vpm.logiccuteguy.com/index.json
 | Package | Repo | Versions |
 | --- | --- | --- |
 | `com.logiccuteguy.digholeit` (DigHoleIt - Diggable Voxel Terrain) | [LogicCuteGuy/DigHoleIt](https://github.com/LogicCuteGuy/DigHoleIt) | 0.4.0, 0.5.0, 0.6.0, **0.6.1** |
-| `com.logiccuteguy.lcgudonsharp` (LCGUdonSharp) | [LogicCuteGuy/LCGUdonSharp](https://github.com/LogicCuteGuy/LCGUdonSharp) | 0.2.0, 0.3.2, 0.3.3, 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, **0.3.9** |
+| `com.logiccuteguy.lcgudonsharp` (LCGUdonSharp) | [LogicCuteGuy/LCGUdonSharp](https://github.com/LogicCuteGuy/LCGUdonSharp) | 0.2.0, 0.3.2, 0.3.3, 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.3.9, **0.3.10** |
 | `com.logiccuteguy.helptools` (LogicCuteGuy Help Tools) | [LogicCuteGuy/UnityHelpTools](https://github.com/LogicCuteGuy/UnityHelpTools) | 1.0.0, 1.0.1 |
+| `com.unity.scriptablebuildpipeline` (LCGUdonSharp compatibility) | [LogicCuteGuy/LCGUdonSharp](https://github.com/LogicCuteGuy/LCGUdonSharp/releases/tag/sbp-compatibility-1.21.26) | **1.21.26** |
 
 ## Rebuild locally
 
