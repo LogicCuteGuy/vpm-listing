@@ -16,6 +16,7 @@
     "LogicCuteGuy/BlendProperty",
     "LogicCuteGuy/DigHoleIt",
     "LogicCuteGuy/LCGUdonSharp",
-    "LogicCuteGuy/UnityHelpTools"
+    "LogicCuteGuy/UnityHelpTools",
+    "LogicCuteGuy/WASM2HLSL"
   ]
 }
