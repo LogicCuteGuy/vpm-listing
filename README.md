@@ -14,8 +14,10 @@ https://vpm.logiccuteguy.com/index.json
 | --- | --- | --- |
 | `com.logiccuteguy.blendproperty` (Blend Property) | [LogicCuteGuy/BlendProperty](https://github.com/LogicCuteGuy/BlendProperty) | 0.1.0, 0.1.1, 0.2.0, **0.2.1** |
 | `com.logiccuteguy.digholeit` (DigHoleIt - Diggable Voxel Terrain) | [LogicCuteGuy/DigHoleIt](https://github.com/LogicCuteGuy/DigHoleIt) | 0.4.0, 0.5.0, 0.6.0, 0.6.1, **0.7.0** |
-| `com.logiccuteguy.lcgudonsharp` (LCGUdonSharp) | [LogicCuteGuy/LCGUdonSharp](https://github.com/LogicCuteGuy/LCGUdonSharp) | 0.2.0, 0.3.2, 0.3.3, 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.3.9, **0.3.10** |
-| `com.logiccuteguy.helptools` (LogicCuteGuy Help Tools) | [LogicCuteGuy/UnityHelpTools](https://github.com/LogicCuteGuy/UnityHelpTools) | 1.0.0, 1.0.1 |
+| `com.logiccuteguy.lcgudonsharp` (LCGUdonSharp) | [LogicCuteGuy/LCGUdonSharp](https://github.com/LogicCuteGuy/LCGUdonSharp) | 0.2.0, 0.3.2, 0.3.3, 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.3.9, 0.3.10, **0.3.11** |
+| `com.logiccuteguy.helptools` (LogicCuteGuy Help Tools) | [LogicCuteGuy/UnityHelpTools](https://github.com/LogicCuteGuy/UnityHelpTools) | 1.0.0, **1.0.1** |
+| `com.logiccuteguy.uihud` (UIHUD) | [LogicCuteGuy/UIHUD](https://github.com/LogicCuteGuy/UIHUD) | **0.1.0** |
+| `com.logiccuteguy.wasm2hlsl` (WASM2HLSL for LCGUdonSharp) | [LogicCuteGuy/WASM2HLSL](https://github.com/LogicCuteGuy/WASM2HLSL) | 0.1.0, **0.2.0** |
 | `com.unity.scriptablebuildpipeline` (LCGUdonSharp compatibility) | [LogicCuteGuy/LCGUdonSharp](https://github.com/LogicCuteGuy/LCGUdonSharp/releases/tag/sbp-compatibility-1.21.26) | **1.21.26** |
 
 ## Rebuild locally
