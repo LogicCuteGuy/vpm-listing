@@ -16,7 +16,7 @@ https://vpm.logiccuteguy.com/index.json
 | `com.logiccuteguy.clientnetsim` (ClientSim Net) | [LogicCuteGuy/ClientSimNet](https://github.com/LogicCuteGuy/ClientSimNet) | 0.1.0, **0.1.1** |
 | `com.logiccuteguy.digholeit` (DigHoleIt - Diggable Voxel Terrain) | [LogicCuteGuy/DigHoleIt](https://github.com/LogicCuteGuy/DigHoleIt) | 0.4.0, 0.5.0, 0.6.0, 0.6.1, 0.7.0, 0.7.1, **0.7.2** |
 | `com.logiccuteguy.lcglocalization` (LCG Localization) | [LogicCuteGuy/LCGLocalization](https://github.com/LogicCuteGuy/LCGLocalization) | **0.1.0** |
-| `com.logiccuteguy.lcgudonsharp` (LCGUdonSharp) | [LogicCuteGuy/LCGUdonSharp](https://github.com/LogicCuteGuy/LCGUdonSharp) | 0.2.0, 0.3.2, 0.3.3, 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.3.9, 0.3.10, 0.3.11, **0.3.12** |
+| `com.logiccuteguy.lcgudonsharp` (LCGUdonSharp) | [LogicCuteGuy/LCGUdonSharp](https://github.com/LogicCuteGuy/LCGUdonSharp) | 0.2.0, 0.3.2, 0.3.3, 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.3.9, 0.3.10, 0.3.11, 0.3.12, **0.5.0** |
 | `com.logiccuteguy.helptools` (LogicCuteGuy Help Tools) | [LogicCuteGuy/UnityHelpTools](https://github.com/LogicCuteGuy/UnityHelpTools) | 1.0.0, **1.0.1** |
 | `com.logiccuteguy.uihud` (UIHUD) | [LogicCuteGuy/UIHUD](https://github.com/LogicCuteGuy/UIHUD) | 0.1.0, 0.1.1, 0.1.2, **0.2.0** |
 | `com.logiccuteguy.wasm2hlsl` (WASM2HLSL for LCGUdonSharp) | [LogicCuteGuy/WASM2HLSL](https://github.com/LogicCuteGuy/WASM2HLSL) | 0.1.0, 0.2.0, 0.2.1, **0.2.2** |
@@ -40,9 +40,4 @@ Every GitHub release of a listed repo must include:
 
 After publishing a release, trigger a rebuild with a `repository_dispatch` of type `build-listing` to this repo, or run the **Build Repo Listing** workflow manually.
 
-For LCGUdonSharp, use the package repository's release workflow or `Tools~/build_release.py`.
-Do not create its installable ZIP with `git archive`: the installer requires
-`Payload~/UdonSharp`, with examples under `Samples~` and no active compiler or
-tests on first import. The published `0.3.2` archive used the wrong layout;
-affected projects should update to **0.3.3**. The release workflow generates
-both the validated ZIP and its matching `package.json`.
+For LCGUdonSharp, push a `0.*` tag that matches `package.json`: the package repository's release workflow validates the metas, zips the package folder with `package.json` at the root, and publishes the zip plus `package.json`.
