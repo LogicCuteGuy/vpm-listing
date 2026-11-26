@@ -19,8 +19,11 @@
     "LogicCuteGuy/LCGLocalization",
     "LogicCuteGuy/LCGNetwork",
     "LogicCuteGuy/LCGUdonSharp",
+    "LogicCuteGuy/OpenWorld",
+    "LogicCuteGuy/StreamData",
     "LogicCuteGuy/UIHUD",
     "LogicCuteGuy/UnityHelpTools",
-    "LogicCuteGuy/WASM2HLSL"
+    "LogicCuteGuy/WASM2HLSL",
+    "LogicCuteGuy/ZoneDraw"
   ]
 }
